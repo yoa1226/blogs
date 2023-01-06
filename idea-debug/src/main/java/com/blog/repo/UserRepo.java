@@ -10,5 +10,7 @@ public interface UserRepo extends JpaRepository<User, Long> {
 
 //  List<User> findByCity(String city);
 
+//  MutableList<User> findByCity(String city);
+
   FastList<User> findByCity(String city);
 }

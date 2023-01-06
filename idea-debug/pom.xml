@@ -27,7 +27,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>3.0.1</version>
         </dependency>
 
         <dependency>
@@ -44,11 +43,20 @@
             <artifactId>eclipse-collections</artifactId>
         </dependency>
 
-    <!-- https://stackoverflow.com/questions/74781733/vulnerable-dependency-mavenorg-yamlsnakeyaml-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+
+        <!-- https://stackoverflow.com/questions/74781733/vulnerable-dependency-mavenorg-yamlsnakeyaml-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>3.0.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

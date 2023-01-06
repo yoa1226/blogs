@@ -1,18 +1,18 @@
 package com.blog.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.SequenceGenerator;
-import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.experimental.Accessors;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Data
 @Entity
 @Accessors(chain = true)
-@Table(name = "\"user\"")
+@Table(name = "user")
 public class User {
 
   @Id

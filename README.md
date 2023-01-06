@@ -8,7 +8,7 @@ This repo is for blog source code.
 |--------|---------|
 | Java   | 17+     |
 | Maven  | 3.8+    |
-| Spring | 3.0.0+  |
+| Spring | 2.7.0-  |
 
 ## How to get code.
 
@@ -34,7 +34,7 @@ mvn test -Dtest=testname -pl subproject
 
 ### 掘金
 
-- [通过问题透析 IDEA Debug](https://juejin.cn/editor/drafts/7184099139469197370)
+- [通过问题透析 IDEA Debug](https://juejin.cn/post/7185569129024192568)
 
 ### GitHub
 

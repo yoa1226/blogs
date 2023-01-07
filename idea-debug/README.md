@@ -6,4 +6,4 @@
 
 ### GitHub
 
-- [通过问题透析 IDEA Debug](idea-debug/blog.md)
+- [通过问题透析 IDEA Debug](blog.md)

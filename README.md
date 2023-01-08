@@ -40,3 +40,4 @@ mvn test -Dtest=testname -pl subproject
 
 - [通过问题透析 IDEA Debug](idea-debug/blog.md)
 
+test pull rebase false

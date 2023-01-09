@@ -35,8 +35,10 @@ mvn test -Dtest=testname -pl subproject
 ### 掘金
 
 - [通过问题透析 IDEA Debug](https://juejin.cn/post/7185569129024192568)
+- [Git 之命令行工具](https://juejin.cn/post/7186635257285148732)
 
 ### GitHub
 
 - [通过问题透析 IDEA Debug](idea-debug/blog.md)
+- [Git 之命令行工具](git-command.md)
 
